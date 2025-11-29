@@ -1,0 +1,104 @@
+<!-- GOOGLE ADS INTEGRATION GUIDE -->
+
+<!--
+When ready to add Google Ads, insert ad units in these strategic locations:
+
+1. HEADER AD (Leaderboard 728x90 or 970x90)
+   Insert after opening <body> tag or in header section
+
+2. SIDEBAR AD (Medium Rectangle 300x250)
+   Create a sidebar in main content area
+
+3. IN-CONTENT AD (Responsive or 336x280)
+   Insert between sections in main content
+
+4. FOOTER AD (Leaderboard 728x90)
+   Insert before closing footer
+
+Example Google Ads code structure:
+-->
+
+<!-- Header Ad Unit -->
+<div class="ad-container" style="text-align: center; margin: 1rem 0; background: #f4f4f4; padding: 1rem;">
+    <p style="font-size: 0.75rem; color: #666; margin-bottom: 0.5rem;">Advertisement</p>
+    <!-- Google Ads code will go here -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+         crossorigin="anonymous"></script>
+    <!-- Ad Unit Code -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="XXXXXXXXXX"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+<!-- CSS for Ad Containers (add to style.css) -->
+<!--
+.ad-container {
+    text-align: center;
+    margin: 2rem 0;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.ad-container p {
+    font-size: 0.75rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .ad-container {
+        margin: 1rem 0;
+    }
+}
+-->
+
+<!-- RECOMMENDED AD PLACEMENTS -->
+
+<!--
+index.html:
+- Header ad after hero section
+- In-content ad between "Introduction" and "Key Achievements"
+- Footer ad before footer
+
+biography.html:
+- Header ad after hero
+- In-content ad between "Early Life" and "Education"
+- In-content ad between "Paris Period" and "Rome Period"
+- Footer ad
+
+works.html:
+- Header ad after collection list
+- In-content ad after every 6-8 artwork cards
+- Footer ad
+
+technique.html:
+- Header ad after hero
+- In-content ad between "Graticola" and "Impasto"
+- Footer ad
+
+bibliography.html:
+- Header ad after intro
+- In-content ad between sections
+- Footer ad
+-->
+
+<!-- GOOGLE ADS SETUP STEPS -->
+<!--
+1. Create Google AdSense account
+2. Get publisher ID (ca-pub-XXXXXXXXXXXXXXXX)
+3. Create ad units in AdSense dashboard
+4. Replace placeholder code above with actual ad unit code
+5. Insert ad containers at recommended placements
+6. Test ads show correctly on all pages
+7. Monitor performance in AdSense dashboard
+8. Optimize ad placements based on performance data
+-->
